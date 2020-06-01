@@ -1,0 +1,19 @@
+{
+  "name": "byhand",
+  "version": "1.0.0",
+  "description": "手动实现系列",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cyrusky/byHand.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cyrusky/byHand/issues"
+  },
+  "homepage": "https://github.com/Cyrusky/byHand#readme"
+}
