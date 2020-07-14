@@ -1,0 +1,26 @@
+/*
+ * File: launch.json
+ * Created Date: 2020-06-27
+ * Author: Bo.Jin
+ * Contact: <bo.jin@borgor.cn>
+ *
+ * Last Modified: Tuesday July 14th 2020 5:29:53 pm
+ *
+ * Copyright (c) 2020 ZDWW
+ * <<licensetext>>
+ */
+
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "launch",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceRoot}/dist/main.js",
+      "args": [],
+      "cwd": "${workspaceRoot}",
+      "protocol": "inspector"
+    }
+  ]
+}
