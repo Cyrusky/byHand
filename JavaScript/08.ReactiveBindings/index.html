@@ -1,0 +1,34 @@
+<!--
+File: index.html
+Created Date: 2020-07-15
+Author: Bo.Jin
+Contact: <bo.jin@borgor.cn>
+
+Last Modified: Thursday July 16th 2020 4:31:24 pm
+
+Copyright (c) 2020 ZDWW
+<<licensetext>>
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>双向绑定实现</title>
+  </head>
+  <body>
+    <div id="name1">
+      {{name}}
+      <input v-model="name" />
+    </div>
+    <script src="./my_scripts.js"></script>
+    <script>
+      window.vm = new MyVue({
+        el: "#name1",
+        data: {
+          name: 123,
+        },
+      });
+    </script>
+  </body>
+</html>
